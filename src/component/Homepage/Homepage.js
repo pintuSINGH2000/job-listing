@@ -89,8 +89,8 @@ const Homepage = () => {
             </div>
           </div>
           <div className={style.filterRight}>
-          {/* token && */}
-            { <button className={style.view} onClick={()=>navigate("/create-job")}>Add Job</button>}
+         
+            { token && <button className={style.view} onClick={()=>navigate("/create-job")}>Add Job</button>}
             <button className={style.view} onClick={fetchJob}>
               Apply Filter
             </button>
