@@ -1,0 +1,1 @@
+export const DEFAULT_SKILLS = ["Html", "CSS", "javaScript", "React","NodeJS"];

@@ -1,0 +1,16 @@
+.container{
+    position: relative;
+    background: black;
+}
+
+.h1{
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 50vw;
+    font-family: 'DM SANS';
+    font-weight: 500;
+    font-size: 35px;
+}

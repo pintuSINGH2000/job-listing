@@ -1,0 +1,75 @@
+.container{
+    background-color: #ED5353;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.shape1{
+    position: absolute;
+    top: -3vh;
+    left: 40vw;
+}
+
+.shape2{
+    position: absolute;
+    top: -3vh;
+    left: 70vw;
+}
+
+.h1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.name{
+    z-index: 1;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    text-transform: capitalize;
+}
+
+.logout{
+    z-index: 1;
+    margin-right: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    cursor: pointer;
+}
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    
+}
+.login{
+    border: 2px solid rgba(255, 255, 255, 1);
+    background-color: rgba(255, 107, 107, 1);
+    color: white;
+    border-radius: 7px;
+    padding: .5em 1.5em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+
+.register{
+    background-color: white;
+    color: rgba(255, 107, 107, 1);
+    border-radius: 7px;
+    padding: .5em .9em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+}

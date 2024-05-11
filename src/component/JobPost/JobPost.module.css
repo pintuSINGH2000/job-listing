@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.container{
+    width: 50vw;
+    padding: 5vw 6vw;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+.formGroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+}
+
+.label{
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+}
+
+.input{
+   width: 60%;
+   border-radius: 5px;
+   border: 1.84px solid rgba(194, 194, 194, 1);
+   padding: 0.5em .4em;
+   resize: none;
+}
+
+.select{
+    border-radius: 5px;
+    border: 1.84px solid rgba(194, 194, 194, 1);
+    padding: 0.5em .4em;
+    color: rgba(173, 173, 173, 1);
+    position: absolute;
+    left: 19.9vw;
+ }
+
+ .add{
+    background: #ed5353;
+    border-radius: 7px;
+    padding: .8em 2em;
+    border: none;
+    color: white;
+    font-weight: 600;
+    float: right;
+    cursor: pointer;
+ }
+
+ .cancel{
+    background: #ffffff;
+    border: 0.85px solid rgba(206, 206, 206, 1);
+    border-radius: 7px;
+    padding: .8em 2.5em;
+    float: right;
+    margin-right: 16px;
+    color: #adadad;
+    cursor: pointer;
+ }
+.skills{
+    width: 63%;
+    margin-left: 37%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+}
+ .skill{
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(255, 238, 238, 1);
+    border-radius: 2px;
+    padding-left: 1em;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    width: 5rem;
+    font-family: "DM Sans", sans-serif;
+    
+ }
+
+ .remove{
+    background-color: rgba(255, 107, 107, 1);
+    padding: .2em .6em;
+    color: white;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-left: 10px;
+    cursor: pointer;
+ }
